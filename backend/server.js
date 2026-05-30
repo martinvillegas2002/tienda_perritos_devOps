@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 const {
-  DB_HOST = "10.0.2.134", // Asegúrate que esta sea la IP privada de tu DB
+  DB_HOST = "10.0.128.248",
   DB_USER = "root",
   DB_PASSWORD = "admin123",
   DB_NAME = "tienda_perritos",
